@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+#wrap {width:100%; height:700px;}
+#wrap #header {z-index:3; position: relative; width:100%; height:100px; background: #c99;}
+#wrap #header .wrap {width:1200px; height:100%; margin:0 auto;}
+#wrap #header .wrap .leftbox {float:left; width:200px; height:100%; background: brown;}
+#wrap #header .wrap .rightbox {float:left; width:1000px; height:100%; background: burlywood;}
+
+#wrap #header .wrap .rightbox #nav {width: 720px; margin:25px 20px 25px 260px; text-align: right;}
+#wrap #header .wrap .rightbox #nav:hover .main-btn-menu .main-btn .submenu {display: block;}
+#wrap #header .wrap .rightbox #nav .main-btn-menu {display:inline-block; width: 720px; height:50px; }
+#wrap #header .wrap .rightbox #nav .main-btn-menu .main-btn {float: left;}
+#wrap #header .wrap .rightbox #nav .main-btn-menu .main-btn > a {display: block; text-align: center; width:180px; line-height: 50px;font-size: 15px; font-weight: 600; background: white; color:black; transition: all .3s;}
+#wrap #header .wrap .rightbox #nav .main-btn-menu .main-btn > a:hover {background: black; color:white;}
+
+#wrap #header .wrap .rightbox #nav .main-btn-menu .main-btn .submenu { display: none;}
+/* #wrap #header .wrap .rightbox #nav .main-btn-menu .main-btn .submenu .sub-btn-menu {} */
+/* #wrap #header .wrap .rightbox #nav .main-btn-menu .main-btn .submenu .sub-btn-menu .sub-btn {} */
+#wrap #header .wrap .rightbox #nav .main-btn-menu .main-btn .submenu .sub-btn-menu .sub-btn > a {display:block; width:180px; line-height: 45px; text-align:center; color:black; background: white;}
+#wrap #header .wrap .rightbox #nav .main-btn-menu .main-btn .submenu .sub-btn-menu .sub-btn > a:hover {color:white; background: black;}
+
+
+#wrap #main {z-index:2; position: relative; margin: 0 auto; width:1200px; height:500px; background:#cc9;}
+#wrap #main #sectiontop {width:100%; height:300px; background: #aae;}
+#wrap #main #sectionbottom {width:100%; height:200px;}
+#wrap #main #sectionbottom .menubox {width:100%; height:100%;}
+#wrap #main #sectionbottom .menubox .leftbox{float:left; width:33.3333%; height:100%; background: lemonchiffon;}
+#wrap #main #sectionbottom .menubox .centerbox{float:left; width:33.3333%; height:100%; background: lightblue;}
+#wrap #main #sectionbottom .menubox .rightbox{float:left; width:33.3333%; height:100%; background: lightcoral;}
+
+
+#wrap #footer {z-index:1; position: relative; width:100%; height:100px; background: #9cc;}
+#wrap #footer .wrap {width:1200px; height: 100%; background: #eea; margin: 0 auto;}
+#wrap #footer .wrap .leftbox {float:left; width:200px; height:100%; background: red;}
+#wrap #footer .wrap .rightbox {float:left; width:1000px; height:100%; background: brown;}
+#wrap #footer .wrap .rightbox .topbox {width:100%; height:50%; background: blueviolet;}
+#wrap #footer .wrap .rightbox .bottombox {width:100%; height:50%; background: blue;}
