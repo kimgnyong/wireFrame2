@@ -9,3 +9,4 @@ ul,li {list-style:none;}
 .clearfix::after {content:'';display:block;clear:both;}
 a {color:#444;text-decoration:none;}
 header,main,section,footer {display:block;}
+.hide { display:none;}
